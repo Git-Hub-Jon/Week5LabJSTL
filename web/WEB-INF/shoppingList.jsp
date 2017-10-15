@@ -13,6 +13,7 @@
     </head>
     <body>
         <h1>Shopping List</h1>
+        <p>Hello,</p> ${username}
         <form action="shoppingList" method="GET">
             Username: <input type="text" name="username">
             <input type="submit" value="Register Name">
