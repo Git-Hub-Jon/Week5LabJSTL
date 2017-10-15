@@ -9,7 +9,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Shopping List</title>
+        <title>Shopping List Register</title>
     </head>
     <body>
         <h1>Shopping List</h1>
@@ -18,5 +18,6 @@
             Username: <input type="text" name="username">
             <input type="submit" value="Register Name">
         </form>
+        ${errorMessage}
     </body>
 </html>
